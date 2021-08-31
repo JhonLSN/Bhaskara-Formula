@@ -1,0 +1,83 @@
+*{margin: 0; padding: 0; font-family: 'Amiko', sans-serif;}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.header hr{
+    width: 50%;
+    height: 3px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #ff7b00;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 100px;
+    background: none;
+    outline: none;
+    border: 2px solid #ff7b00;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+button{
+    outline: none;
+    background: none;
+    background: #ff7b00;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 25px 0;
+    padding: 3px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #ff922d;
+    color: rgb(0, 0, 0);
+}
+
+.main-result{
+    display: flex;
+    flex-direction: row;
+}
+
+.value-delta{
+    display: flex;
+    flex-direction: row;
+}
+
+label{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.value-delta, .value-x1, .value-x2{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 20px #ff922d;
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 30px;
+}
+
+p#delta, p#raiz1, p#raiz2{
+    font-size: 2rem;
+    margin-right: 20px;
+}

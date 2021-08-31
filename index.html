@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Fórmula de Bhaskara</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiko&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>Fórmula de Bhaskara</h1>
+        <p>Informe 3 valores para gerar o Delta e as Raízes.</p>
+        <hr>
+    </header>
+    <section class="main">
+        <div class="main-input">
+            <input type="number" id="a"> x²
+            <input type="number" id="b"> x
+            <input type="number" id="c">
+        </div>
+        <button onclick="resultado()">RESULTADO</button>
+        <div class="main-result">
+            <div class="value-delta">
+                <label>DELTA =</label>
+                <p id="delta">0</p>
+            </div>
+            <div class="value-x1">
+                <label>X¹ =</label>
+                <p id="raiz1">0</p>
+            </div>
+            <div class="value-x2">
+                <label>X² =</label>
+                <p id="raiz2">0</p>
+        </div>
+    </section>
+    <script src="script/script.js"></script>
+</body>
+</html>
+
+
+
+
