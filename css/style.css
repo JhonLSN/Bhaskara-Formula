@@ -52,12 +52,18 @@ button:hover{
     color: rgb(0, 0, 0);
 }
 
-.main-result{
+.main__result{
     display: flex;
     flex-direction: row;
 }
 
-.value-delta{
+@media screen and (max-width:700px){
+    .main__result{
+        flex-direction: column;
+    }
+}
+
+.main__result__value-delta{
     display: flex;
     flex-direction: row;
 }
@@ -68,7 +74,7 @@ label{
     margin-right: 20px;
 }
 
-.value-delta, .value-x1, .value-x2{
+.main__result__value-delta, .main__value-x1, .main__value-x2{
     display: flex;
     flex-direction: row;
     box-shadow: 0 0 20px #ff922d;
@@ -77,7 +83,15 @@ label{
     margin-right: 30px;
 }
 
-p#delta, p#raiz1, p#raiz2{
+@media screen and (max-width: 700px){
+    .main__result__value-delta, .main__value-x1, .main__value-x2{
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+}
+
+.main__result__value-delta__delta, .main__value-x1__raiz1, .main__value-x2__raiz2{
     font-size: 2rem;
     margin-right: 20px;
 }
+

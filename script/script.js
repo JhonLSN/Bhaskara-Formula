@@ -1,11 +1,11 @@
 function resultado() {
     // Declarando variáveis 
-    var a = Number(document.querySelector('input#a').value)
-    var b = Number(document.querySelector('input#b').value)
-    var c = Number(document.querySelector('input#c').value)
-    var RDelta = document.querySelector('p#delta')
-    var Raiz1 = document.querySelector('p#raiz1')
-    var Raiz2 = document.querySelector('p#raiz2')
+    var a = Number(document.querySelector('input.main__input__a').value)
+    var b = Number(document.querySelector('input.main__input__b').value)
+    var c = Number(document.querySelector('input.main__input__c').value)
+    var RDelta = document.querySelector('p.main__result__value-delta__delta')
+    var Raiz1 = document.querySelector('p.main__value-x1__raiz1')
+    var Raiz2 = document.querySelector('p.main__value-x2__raiz2')
 
     // Executando a Fórmula de Bhaskara
     var delta = (b*b)-4*a*c
